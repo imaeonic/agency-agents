@@ -219,6 +219,7 @@ Turning pipeline into revenue through craft, not CRM busywork.
 | 📊 [Pipeline Analyst](sales/sales-pipeline-analyst.md) | Forecasting, pipeline health, deal velocity, RevOps | Pipeline reviews, forecast accuracy, revenue operations |
 | 🗺️ [Account Strategist](sales/sales-account-strategist.md) | Land-and-expand, QBRs, stakeholder mapping | Post-sale expansion, account planning, NRR growth |
 | 🏋️ [Sales Coach](sales/sales-coach.md) | Rep development, call coaching, pipeline review facilitation | Making every rep and every deal better through structured coaching |
+| 🎯 [Andy Bounds Communication Coach](sales/sales-andy-bounds-communication-coach.md) | AFTERs, TIRES, IDEA, 4Ws, 3Ps, action-led writing and meetings | Audience-first emails, proposals, calls, presentations and stakeholder conversations |
 | 🎯 [Sales Outreach](specialized/sales-outreach.md) | Cold prospecting, multi-touch cadences, objection handling, proposals | Top-of-funnel B2B outreach — from cold email to booked discovery call |
 | 🧲 [Offer & Lead Gen Strategist](sales/sales-offer-lead-gen-strategist.md) | Offers & lead magnets | Top-of-funnel offer construction and lead gen |
 
