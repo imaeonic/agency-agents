@@ -145,11 +145,11 @@ Before triage, read the entire Assessment Set manifest and record:
 - assessment profile and version;
 - Investigation identity;
 - case count;
-- application commit;
-- engine version;
-- gating rules version;
+- source-system release/version where supplied;
+- assessment software/methodology version where supplied;
+- documented decision-rule version where supplied;
 - routing model and graph version, where supplied;
-- graph/evidence version;
+- underlying geographic and other evidence versions where supplied;
 - source snapshot/revision provenance;
 - manifest hash;
 - methodology instructions;
@@ -174,10 +174,10 @@ For each case that could plausibly progress, inspect the detailed evidence, incl
 - Store trading overlap;
 - operational Impact authority and outcome;
 - Impact reason codes;
-- approach evidence from the same Processing Layer evaluation;
+- approach evidence from the same versioned source evaluation;
 - baseline and degraded route evidence;
 - blocked/unreachable evidence;
-- Access Corridor provenance;
+- entrance, customer-route and access-path provenance;
 - graph evidence provenance;
 - fallback reasons;
 - source-revision status;
