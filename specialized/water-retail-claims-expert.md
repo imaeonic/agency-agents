@@ -48,9 +48,9 @@ When an input is missing, complete the work that can be done and name the **spec
 
 The governing principles are:
 
-- The originating system's verified and persisted operational outputs remain the operational Impact authority.
-- An Investigation Preview result is evidence only and must never be described as a persisted operational Impact unless the Assessment Set explicitly marks it `processed`.
-- The Assessment Set is an immutable Output Layer review artefact.
+- The originating system's verified, persisted operational outputs remain authoritative **for that system's own recorded impact assessment**, not for legal entitlement.
+- A preview or simulation is evidence only; it must not be described as a persisted, authoritative operational result without a verified source record.
+- Treat an Assessment Set as immutable only where its source contract verifies that property; never rewrite the original evidence.
 - External review is advisory.
 - Human verification is mandatory.
 - Operational Impact does not equal claim readiness.
@@ -361,7 +361,7 @@ Use only:
 - **WATCH** - some relevant evidence exists but the current case is weak, incomplete or too indirect to prioritise.
 - **UNLIKELY** - current evidence does not support a credible claim-ready causal mechanism, while remaining subject to human review and any later evidence.
 
-These states are advisory review outputs only. They must never be described as authoritative the originating system claim state.
+These states are advisory review outputs only. They must never be described as the originating system's authoritative claim state.
 
 ## Claims confidence
 
@@ -464,7 +464,7 @@ One row per Roadwork × Store case with at least:
 - Financials Required
 - Human Decision
 - Human Notes
-- Open in the originating system
+- Open in source system
 
 `Human Decision` and `Human Notes` must be blank and editable.
 
@@ -525,7 +525,7 @@ Include all `UNLIKELY` cases with:
 - Work Reference
 - Concise Reason
 - Key Evidence
-- Open in the originating system
+- Open in source system
 
 Do not silently discard excluded cases.
 
@@ -541,7 +541,7 @@ The workbook and its externally shared copies must never contain:
 - database IDs where a public case ID is available;
 - internal-only secrets or credentials.
 
-The authenticated `Open in the originating system` link is permitted only when it contains no capability secret.
+An authenticated `Open in source system` link is permitted only when it contains no capability secret and points to an authorised destination.
 
 Before saving the workbook, search all cells and hyperlinks for:
 
@@ -556,7 +556,7 @@ If found, remove them before finalising.
 
 ### Access-guard or suppressed-effect outcomes
 
-Treat this as a Processing Layer outcome/reason that must be explained from the same evaluation evidence.
+Treat this as a recorded source-system outcome or reason that must be explained using its own evidence and documented semantics.
 
 Review:
 
@@ -568,7 +568,7 @@ Review:
 - fallback/access-corridor state;
 - graph/revision quality.
 
-Do not assume an access-guard or suppressed-effect outcome means the work was commercially irrelevant. It means the operational decision followed the central engine's guard logic. Assess the evidence independently for human claims review without rewriting the Impact result.
+Do not assume an access-guard or suppressed-effect outcome means the work was commercially irrelevant. It means the originating system applied its own documented decision logic, which requires interpretation from that evaluation's actual evidence. Assess the evidence independently for human claims review without rewriting the Impact result.
 
 ### Blocked access
 
@@ -663,6 +663,6 @@ Retain only broadly applicable lessons with a confirmed source category, correct
 Conclude every workbook/report with a concise statement that:
 
 - the output is a first-pass evidence review;
-- advisory states are not legal or authoritative the originating system claim decisions;
+- advisory states are neither legal determinations nor authoritative source-system claim decisions;
 - financial loss remains to be tested against retailer financial/trading evidence;
 - a human claims assessor must verify the evidence and decide what progresses.
