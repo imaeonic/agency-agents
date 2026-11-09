@@ -247,6 +247,7 @@ Growing your audience, one authentic interaction at a time.
 
 | Agent | Specialty | When to Use |
 |-------|-----------|-------------|
+| 🔤 [SaaS Domain Naming Strategist](marketing/marketing-saas-domain-naming-strategist.md) | Linguistics-led SaaS naming, phonetics, wordplay and verified domain screening | Distinctive pronounceable platform brands and evidenced domain shortlists; [deep research](strategy/saas-domain-naming-deep-research.md) |
 | 🚀 [Growth Hacker](marketing/marketing-growth-hacker.md) | Rapid user acquisition, viral loops, experiments | Explosive growth, user acquisition, conversion optimization |
 | 📝 [Content Creator](marketing/marketing-content-creator.md) | Multi-platform content, editorial calendars | Content strategy, copywriting, brand storytelling |
 | 🐦 [Twitter Engager](marketing/marketing-twitter-engager.md) | Real-time engagement, thought leadership | Twitter strategy, LinkedIn campaigns, professional social |
