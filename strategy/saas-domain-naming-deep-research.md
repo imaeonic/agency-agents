@@ -18,11 +18,11 @@ A strong SaaS platform name must be usable as **speech and writing**, not simply
 | Research synthesis | Motoki et al. 2022 | More systematic framework for perceived evaluation and potency associated with sound features | Universal cross-industry causation |
 | Cross-language studies | Sound-symbolism effects across languages (2012); Athaide & Klink (2013) | Some associations generalise across tested language groups | That every invented term is culturally safe |
 | Authoritative linguistic reference | Cambridge Grammar; International Phonetic Association | Real word-formation categories and consistent pronunciation notation | Naming desirability by itself |
-| Registry/technical | Nominet registrar guidance; ICANN RDAP guidance | Correct purposes of live EPP/registrar checks versus registration-data lookups | A particular name's live availability without a query |
+| Existing availability workflow | Connected Namecheap integration | Returns an exact-domain lookup result when invoked | Legal rights, linguistic quality or ownership |
 | Official IP authorities | UK IPO; WIPO; EUIPO; USPTO | Screening obligations, similarity dimensions and distinctiveness concepts | Definitive rights clearance by an AI |
 | Inference/practitioner method | The workflow and heuristic scorecard below | An auditable way to generate and choose names | Validated prediction of market performance |
 
-**Research boundaries:** targeted English-language web review of primary academic abstracts/full accessible material, authoritative linguistic references, domain registry guidance and official IP guidance as at the date above. Not a systematic review or exhaustive national-language clearance. Where a primary paper is paywalled, conclusions are limited to the available abstract and related reviewed synthesis. No domain names have been registered or checked for live availability as part of this study.
+**Research boundaries:** targeted English-language web review of primary academic abstracts/full accessible material, authoritative linguistic references and official IP guidance as at the date above. Not a systematic review or exhaustive national-language clearance. Where a primary paper is paywalled, conclusions are limited to the available abstract and related reviewed synthesis. No domain names have been registered or checked for live availability as part of this study.
 
 ### Selected findings
 1. **Meaning can be conveyed by sound, sometimes without descriptive words.** Klink's experimental work and Yorkston & Menon's consumer research found that phonetic cues can influence attribute judgements in studied settings [1, 2].
@@ -42,7 +42,7 @@ A useful generation specification has:
 ```text
 intended_speech  -> syllables + stress -> plausible word shapes -> candidate spellings
 word associations -> market meaning    -> collision checks
-candidate spelling + exact TLD         -> registrar availability -> evidence timestamp
+candidate spelling + requested TLD    -> connected Namecheap result (when invoked)
 ```
 
 ### 2.2 Phonotactics and syllable templates
@@ -298,9 +298,7 @@ Update known competitor-name families, tested pronunciation/spelling pitfalls an
 
 [10] Abhishek Pathak, Gemma Anne Calvert & Lewis K. S. Lim (2020), *Harsh voices, sound branding*, Psychology & Marketing. https://doi.org/10.1002/mar.21346
 
-[11] ICANN (27 January 2025), *Launching RDAP; Sunsetting WHOIS*. https://www.icann.org/en/announcements/details/icann-update-launching-rdap-sunsetting-whois-27-01-2025-en
 
-[12] Nominet Registrar Resources, *How to Check Domain Availability*, recommending `EPP domain:check` and cautioning against RDAP as an availability service. https://registrars.nominet.uk/dragon/how-to/check-domain-availability/
 
 [13] UK Intellectual Property Office, *Search for a trade mark*. https://www.gov.uk/search-for-trademark
 
