@@ -1,20 +1,14 @@
-# SaaS Platform Naming and Unregistered-Domain Research
+# SaaS Platform Naming - Original Research Baseline
 
 **Research date:** 9 November 2026  
-**Purpose:** Evidence-backed operating reference for `marketing/marketing-saas-domain-naming-strategist.md`  
-**Scope:** Inventing brand names for SaaS platforms, with particular attention to phonetics, audible wordplay, lexical creation, differentiation, registrable domain checks and preliminary rights screening.  
-**Not in scope:** An actual list of presently available domains; availability is transient and requires live registry/registrar checks. This report is not a legal opinion.
+**Status:** Original baseline, enriched by [the supplied deep-research report](saas-naming-research-enrichment-2026.md) and the updated [agent](../marketing/marketing-saas-domain-naming-strategist.md).  
+**Scope:** Phonetic and semantic naming methods, SaaS brand architecture, market differentiation and preliminary trademark risks. Domain-checking research is no longer part of the agent's method; it uses the existing Namecheap integration.
 
 ## Executive conclusion
 
-A strong SaaS name is a **spoken and searchable identity first, a domain string second**. The most useful practice is to generate across several distinct linguistic and semantic territories, filter by **see-to-say and hear-to-spell**, and subject every survivor to real-world market, domain and trade mark checks. A short invented word that requires constant spelling correction is not better than a slightly longer pronounceable word.
+A strong SaaS platform name must be usable as **speech and writing**, not simply look unusual as a URL. Research-led naming begins with independent creative territories, constructs natural sounds before spellings, uses a multi-step transformation graph, removes competitors' phonetic neighbours and tests real people on pronunciation, hear-to-spell and recall.
 
-Domain checks and trade mark checks solve **different questions**:
-- A live registrar/registry availability response asks whether an **exact domain name** is currently offered for registration, subject to availability and pricing.
-- A trade mark search asks whether **similar marks** exist in relevant markets, classifications and commercial contexts; preliminary search is not legal clearance.
-- DNS, website and search-engine lookups are discovery signals, not registration verdicts.
-
-The practical differentiation is to start with **pronounceable word sounds and target-user associations**, not indiscriminately inserting letters into dictionary words.
+**Upgrade:** The initial 100-point heuristic and manual registrar research are superseded by qualitative knockout/ordinal comparison and Namecheap's existing availability service. Do not treat an available domain as proof of ownership or trademark clearance. The new proposed agent architecture is not a validated predictor of commercial success.
 
 ## 1. Evidence hierarchy and limitations
 
@@ -148,38 +142,11 @@ Decide what the word must do before generating it:
 
 Check `brand.com`, `app.brand.com`, `support@brand.com`, speech, search result titles, mobile app labels and future names under the same parent.
 
-## 5. Domain validation: operational protocol
+## 5. Existing Namecheap integration - scope boundary
 
-### 5.1 Critical distinction
-- **Availability check:** live registry or registrar interface authoritatively reporting whether a specific domain may be registered **at that moment**; price/premium status can vary.
-- **RDAP lookup:** registration information for existing domains; **not** the preferred live inventory check. ICANN made RDAP the definitive gTLD registration-information source from 28 January 2025, superseding broad WHOIS requirements [11].
-- **DNS/HTTP lookup:** shows resolution/service behaviour only; not registration or purchasing availability.
-- **Search engine:** shows observed pages/mentions, not legal or registry inventory.
+Domain-registration research and API implementation are explicitly **out of scope**. The connected Namecheap integration handles availability checks on shortlisted exact names and TLDs. If it has not been run, show `NOT CHECKED`, not an availability assertion. Do not invent results, buy domains or conflate registration status with trade mark rights.
 
-Nominet specifically identifies `EPP domain:check` as the primary live availability mechanism for its registrar integrations and explicitly says RDAP is not intended as an availability service [12]. For every TLD, use the competent registry or authorised registrar's current methods.
-
-### 5.2 Status vocabulary
-```text
-AVAILABLE_AT_CHECK  = positive current registrar/registry availability response
-PREMIUM_AVAILABLE   = offered but premium-priced (record both initial/renewal)
-REGISTERED          = registry/registrar says taken
-RESERVED_OR_BLOCKED = cannot register under registry/registrar rules
-UNSUPPORTED         = TLD/check not supported by current provider
-UNKNOWN             = contradictory/failed/stale check
-UNVERIFIED          = never checked by an authoritative availability service
-```
-Never call `UNKNOWN` or `UNVERIFIED` an available domain; never mark a whole brand as available just because one secondary TLD is open.
-
-### 5.3 Exact check procedure
-1. Confirm TLD preference and whether exact match is mandatory.
-2. Construct the complete domain; normalise IDNs with proper encoding and avoid homograph risks.
-3. Run registrar/registry check for every chosen extension without overloading its permitted rate limits.
-4. Capture query time in UTC, lookup authority, status, evidence, any first-year/renewal premium and constraints.
-5. Independently search web and brand registries for near-collisions. An available domain can still be commercially unsafe.
-6. Refresh availability before offering purchase instructions or placing an order.
-7. Do not purchase without authorisation. A completed registration/receipt is the only proof of ownership.
-
-A domain can be under a reserved category, broker listing, premium tier, redemption/transfer state or blocked by registration policy. These are distinct from an ordinary registrable name; preserve the registrar's actual status.
+Naming research should spend its effort on phonological naturalness, meaningful transformation, audience fit and distinctiveness, not on domain lookup technology.
 
 ## 6. Trade mark and legal screening
 
@@ -206,45 +173,40 @@ Distinctive-name categories from official guidance:
 
 **Important:** the strength spectrum is about inherent distinctiveness, **not** a legal determination that any candidate is safe [7, 8].
 
-## 7. Disciplined generation and filtering pipeline
+## 7. Updated generation and filtering pipeline
 
 ```text
-BUSINESS TRUTH + BUYER AFTER
+CONFIRMED PRODUCT + BUYER AFTER
        ↓
-6–10 DISTINCT NAMING TERRITORIES
+COMPETITOR LANGUAGE MAP
        ↓
-100–250 INTERNAL CANDIDATES
+4–6+ INDEPENDENT CREATIVE TERRITORIES (NO CROSS-BRANCH CANDIDATE LEAKAGE)
        ↓
-PHONEMIC + ORTHOGRAPHIC SCREEN
+SEMANTIC ROOT + PHONEME POOLS
        ↓
-40 OR FEWER RELEVANT SURVIVORS
+TRANSFORMATION GRAPH (MULTIPLE OPERATORS PER ROUTE)
        ↓
-MARKET / SOUNDALIKE / RIGHTS SCREEN
+SOUND FIRST → SYLLABLE/STRESS → PLAUSIBLE SPELLING
        ↓
-EXACT REGISTRAR DOMAIN CHECK FOR REQUIRED TLDS
+DIVERSITY CLUSTERING + PRONUNCIATION/SPELLING REJECTION
        ↓
-8–12 EVIDENCED FINALISTS
+MARKET + PRELIMINARY RIGHTS SCREEN
        ↓
-HUMAN HEAR→SPELL / SEE→SAY / RECALL TESTS
+STRONG / ACCEPTABLE / WEAK / UNTESTED ASSESSMENT
        ↓
-2–3 SELECTABLE NAMES + QUALIFIED RIGHTS REVIEW
+OPTIONAL CONNECTED NAMECHEAP CHECK FOR EXACT SHORTLIST DOMAINS
        ↓
-EXPLICIT AUTHORISATION → PURCHASE
+ACTUAL HUMAN SEE→SAY / HEAR→TYPE / RECALL TESTS
+       ↓
+DIFFERENTIATED SHORTLIST + EXPLICIT NEXT ACTION
 ```
 
-Volume ranges are internal workflow heuristics, not statistically validated optimal sample sizes. If six territories genuinely produce fewer good names, prioritise quality and report the limitation.
+The 100–250 exploratory-candidate figure from the original work is only a generation budget heuristic. A specific quantity of attempts does not imply greater name quality.
 
-### Suggested 100-point *heuristic* scorecard
-- 20: natural first-sight pronunciation
-- 15: hear-to-spell consistency
-- 15: competitive/search distinctiveness
-- 15: audience/job/AFTER relevance
-- 10: category and product-line stretch
-- 10: cultural and semantic fit
-- 10: recall and oral recommendation
-- 5: visual wordshape and app suitability
+### Why the earlier 100-point weighting is retired
+A number such as 87/100 implies an accuracy and validation that this naming system does not have. Evaluate **gates first**, then use transparent strong/acceptable/weak/untested qualitative judgments. Actual test data should be reported as observed counts and results, never imaginary precision.
 
-**Important:** legal conflicts and required-TLD availability are knockouts/decision gates, not points that can be offset by a high score. Scores help expose trade-offs and are not claimed to predict conversion, retention or valuation.
+The most consequential proposed upgrades from the supplied report are **sound-first construction**, **multi-step transformation graphs**, **independent idea branches**, **actual hear-to-spell testing** and **measured usable survivor diversity**. These are research-informed design choices, not proven commercial success formulas.
 
 ## 8. Human testing protocol
 
@@ -261,58 +223,58 @@ Report `N`, recruitment/audience, exposure order, raw results, uncertainty and f
 ## 9. Candidate evidence record specification
 
 ```yaml
-candidate: SAMPLE_ONLY_NOT_A_REAL_RECOMMENDATION
-created_from:
-  naming_territory: coined
-  method: phonemic_construction
-  underlying_concept: "customer's confirmed outcome"
-spoken:
-  uk_english_guide: "[human-tested pronunciation here]"
-  ipa: null
-  alternative_pronunciations: []
-  hear_to_spell: "not yet tested"
-commercial:
-  category: "verified SaaS category"
-  collisions_checked_at_utc: null
-  collision_notes: []
-  trademark_status: "not cleared"
-  jurisdictions: ["UK"]
-domains:
-  - fqdn: "candidate.example"
-    tld: ".example"
-    status: "UNVERIFIED"
-    provider: null
-    checked_at_utc: null
-    registration_price: null
-    renewal_price: null
-    evidence: null
+candidate: ILLUSTRATIVE_NOT_SCREENED
+territory: "phonological coinage"
+lineage:
+  root_or_seed: "verified concept or ARBITRARY"
+  operators_in_order: ["semantic distance jump", "phoneme simplification"]
+phonology:
+  intended_sound: "plain pronunciation"
+  ipa_if_reliable: null
+  syllables: null
+  stress_pattern: null
+  alternative_readings: []
+  likely_heard_spellings: []
+  tested_with_real_people: false
+audience:
+  buyer_after: "verified desired outcome"
+  relevance: "hypothesis, not tested"
+screening:
+  competitor_neighbours: []
+  trademark_status: "preliminary / not cleared"
+  priority_languages: ["English (UK)"]
+domain:
+  availability_source: "existing Namecheap integration"
+  exact_domain: null
+  status: "NOT CHECKED"
+  checked_at: null
 outcome:
-  decision: "research candidate only"
-  next_action: "run official domain/rights checks"
+  ordinal_assessment: "UNTESTED"
+  next_action: "real testing, rights review and Namecheap if requested"
 ```
 
-The `.example` TLD above is reserved for documentation illustration; never represent it as purchasable.
+Never interpret the example as an available name or as evidence of an executed check.
 
 ## 10. Adversarial QA and common failures
 
 | Failure | Diagnostic | Required response |
 |---|---|---|
 | All ten names end in -ly or -io | Low method diversity | Regenerate using new semantic/arbitrary territories |
-| "It's available because the site is blank" | No registrar evidence | Reclassify UNVERIFIED |
+| "It must be available because it is unused" | Namecheap was not run | Mark NOT CHECKED |
 | "No exact UKIPO hits, therefore safe" | Ignores sound and similar services | Expand searches, refer to counsel |
 | Name needs pronunciation instructions | Broken first-sight test | Reject or human-test an improved spelling |
-| Short list full of domain-taken names | Domain gate after ranking | Re-run check before recommending |
+| Required domain is returned unavailable by Namecheap | Exact-domain gate | Reject or regenerate, never silently switch TLD |
 | Candidate copies a famous name with one letter changed | Confusion risk | Reject; don't celebrate as clever spelling |
 | Generic descriptive word chosen only for easy explanation | Low distinctiveness | Compare with suggestive/arbitrary/coinage |
 | Every candidate based on one feature | No platform stretch | Regenerate from buyer outcome and broader category |
 | Apparent Latin root has invented meaning | False etymology | Verify in reference or remove claim |
 | "Works internationally" based on English alone | Cultural research gap | Mark untested and check priority languages |
 | Name picked because logo looks best | Design confounding | Blind spoken test before visual test |
-| RDAP negative taken as free | Wrong tool for a live availability claim | Use official registrar/registry check |
+| Agent invents domain-check results | No actual Namecheap response | Remove the claim and mark NOT CHECKED |
 
 ## 11. Maintenance and research triggers
 
-Refresh availability **for every new recommendation** and again immediately before intended registration. Refresh active markets and name conflicts on each engagement. Review naming-linguistics literature and official registry/IP guidance periodically, particularly after policy changes. Track future project decisions and client rejection patterns in that client’s sources, not the generic research base.
+Update known competitor-name families, tested pronunciation/spelling pitfalls and client approval decisions. Review linguistic science and legal guidance when material evidence changes. Call Namecheap afresh for any time-sensitive availability requirement; no alternate API or registry protocol knowledge needs to be maintained by this agent. See the newer supplied research report for the transformation operator taxonomy and human validation sequence.
 
 ## References and source register
 
